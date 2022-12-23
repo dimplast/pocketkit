@@ -1,9 +1,11 @@
 import PocketBase from 'pocketbase';
-import { PUBLIC_PB_HOST } from '$env/static/public';
+//import { PUBLIC_PB_HOST } from '$env/static/public';
 import { serializeNonPOJOs } from '$lib/utils';
 
+const url = 'https://angry-sunset.pockethost.io'
+
 export const handle = async ({ event, resolve }) => {
-	event.locals.pb = new PocketBase(PUBLIC_PB_HOST);
+	event.locals.pb = new PocketBase(url);
 	event.locals.pb.authStore.loadFromCookie(event.request.headers.get('cookie') || '');
 
 	if (event.locals.pb.authStore.isValid) {
