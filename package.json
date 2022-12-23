@@ -1,0 +1,41 @@
+{
+	"name": "mypocket",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@popperjs/core": "^2.11.6",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"@tailwindcss/forms": "^0.5.3",
+		"autoprefixer": "^10.4.13",
+		"classnames": "^2.3.2",
+		"flowbite": "^1.5.4",
+		"flowbite-svelte": "^0.28.0",
+		"postcss": "^8.4.19",
+		"simple-svelte-autocomplete": "^2.5.0",
+		"svelte": "^3.44.0",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.2.4",
+		"vite": "^3.1.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@iconify/json": "^2.1.143",
+		"daisyui": "^2.41.0",
+		"date-fns": "^2.29.3",
+		"file-selector": "^0.6.0",
+		"object-to-formdata": "^4.4.2",
+		"pocketbase": "^0.8.2",
+		"svelte-file-dropzone": "^1.0.0",
+		"svelte-french-toast": "^1.0.3",
+		"svelte-icons": "^2.1.0",
+		"unplugin-icons": "^0.14.14",
+		"zod": "^3.19.1",
+		"zod-form-data": "^1.2.4"
+	}
+}
